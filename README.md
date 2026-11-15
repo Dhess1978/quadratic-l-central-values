@@ -2,6 +2,8 @@
 
 **David Hess (MAYAN ALFA V1008 LAB v.34.85b) · 2026** · [Česká verze](README.cs.md)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24256378.svg)](https://doi.org/10.5281/zenodo.24256378) Zenodo: [doi:10.5281/zenodo.24256378](https://doi.org/10.5281/zenodo.24256378)
+
 Fifth study of the series, after *Berry saturation and the statistics of the Riemann zeros* (study I, [doi:10.5281/zenodo.23815328](https://doi.org/10.5281/zenodo.23815328)), *Beyond the diagonal approximation* (study II, [doi:10.5281/zenodo.23928017](https://doi.org/10.5281/zenodo.23928017)), *Low-lying zeros of 795,381 quadratic Dirichlet L-functions* (study III, [doi:10.5281/zenodo.23991165](https://doi.org/10.5281/zenodo.23991165)) and *Three-point correlation of the Riemann zeros at finite height* (study IV, [doi:10.5281/zenodo.24094318](https://doi.org/10.5281/zenodo.24094318)). It measures the values L(½, χ_D) of quadratic Dirichlet L-functions at the central point and connects them with the low-lying zeros of the same L-functions (study III). Data: every fundamental discriminant 3 ≤ |D| ≤ 10⁷ (6,079,285 values, PARI/GP), all 1,215,839 discriminants with 10⁸ < |D| ≤ 10⁸ + 2·10⁶ (PARI/GP), all 486,344 with 10⁹ < |D| ≤ 10⁹ + 8·10⁵ and all 121,557 with 10¹⁰ < |D| ≤ 10¹⁰ + 2·10⁵ (own smoothed functional equation, checked against PARI on 2,000 random discriminants at 10⁹ and on all 12,153 of the first band at 10¹⁰); for 4,042,611 of them also the low zeros (the zeros of 3,161,211 L-functions were computed for this study). Most statements were tested against rules recorded before the computation (`data/rules/`).
 
 | result | value |

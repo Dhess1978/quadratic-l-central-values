@@ -2,6 +2,8 @@
 
 **David Hess (MAYAN ALFA V1008 LAB v.34.85b) · 2026** · [English version](README.md)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24256378.svg)](https://doi.org/10.5281/zenodo.24256378) Zenodo: [doi:10.5281/zenodo.24256378](https://doi.org/10.5281/zenodo.24256378)
+
 Pátá studie řady, po studiích *Berry saturation and the statistics of the Riemann zeros* (studie I, [doi:10.5281/zenodo.23815328](https://doi.org/10.5281/zenodo.23815328)), *Beyond the diagonal approximation* (studie II, [doi:10.5281/zenodo.23928017](https://doi.org/10.5281/zenodo.23928017)), *Low-lying zeros of 795,381 quadratic Dirichlet L-functions* (studie III, [doi:10.5281/zenodo.23991165](https://doi.org/10.5281/zenodo.23991165)) a *Three-point correlation of the Riemann zeros at finite height* (studie IV, [doi:10.5281/zenodo.24094318](https://doi.org/10.5281/zenodo.24094318)). Měří hodnoty L(½, χ_D) kvadratických Dirichletových L-funkcí ve středu a spojuje je s nízkými nulami týchž L-funkcí (studie III). Data: všechny fundamentální diskriminanty 3 ≤ |D| ≤ 10⁷ (6 079 285 hodnot, PARI/GP), všech 1 215 839 diskriminantů s 10⁸ < |D| ≤ 10⁸ + 2·10⁶ (PARI/GP), všech 486 344 s 10⁹ < |D| ≤ 10⁹ + 8·10⁵ a všech 121 557 s 10¹⁰ < |D| ≤ 10¹⁰ + 2·10⁵ (vlastní vyhlazená funkcionální rovnice, ověřená v PARI na 2 000 náhodných diskriminantech u 10⁹ a na všech 12 153 diskriminantech prvního pásma u 10¹⁰); pro 4 042 611 z nich i nízké nuly (nuly 3 161 211 L-funkcí byly spočteny pro tuto studii). Většina tvrzení byla testována podle pravidel zapsaných před výpočtem (`data/rules/`).
 
 | výsledek | hodnota |

@@ -4,6 +4,11 @@ type: dataset
 title: "Central values of quadratic Dirichlet L-functions for every fundamental discriminant up to 1e7 and at 1e8, 1e9 and 1e10: moments, consecutive families, the distribution of values, the first zero, and the weighted density of low zeros - a reproducible numerical study V"
 version: "1.0"
 date-released: "2026-11-15"
+doi: "10.5281/zenodo.24256378"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24256378"
+    description: "Zenodo record of this study (GitHub release v1.0)"
 license: ["CC-BY-4.0", "MIT"]
 repository-code: "https://github.com/Dhess1978/quadratic-l-central-values"
 authors:
