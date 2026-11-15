@@ -1,0 +1,13 @@
+PASS sieve: own sieve 6079285 fundamental discriminants, published values 6079285
+PASS positive values: smallest 6.03627e-05 at D = -115147
+PASS moments: k = 1..5, both signs, 7 bands and totals: relative differences = published to 2.8e-16; totals even k1 +7.9e-06, even k2 +2.8e-05, even k3 +3.5e-05, even k4 +6.8e-06, even k5 -7.0e-05, odd k1 -6.0e-07, odd k2 +3.5e-06, odd k3 -1.5e-05, odd k4 -1.1e-04, odd k5 -3.1e-04
+PASS moments at 1e8: D100b + D100c (1155037 values): relative differences = published to 2.4e-16
+PASS parity: mean odd - mean even = 1.10649, A0*pi/2 = 1.10654
+PASS consecutive blocks: k = 1 block/random scatter: own 0.112 / 0.112, published 0.110 / 0.122 (even / odd)
+PASS small values: exponent 1.518 +- 0.015 (even 1.525, odd 1.511), USp 3/2
+PASS smallest values: D = -115147: 6.036e-05, D = -1832763: 7.788e-05, D = 8349653: 9.35e-05
+PASS values at 1e10: E10: 12153 values, largest relative difference 4.25e-11, median 2.1e-14
+PASS values at 1e9: S9L: own segmented sieve 486344 fundamental discriminants = published values; 2,000 PARI values: largest relative difference 8.38e-13, median 2.5e-15; moments k = 1..5 against CFKRS = published to 1.8e-16 (descriptive, largest 1.15 errors)
+PASS weighted density: 20 groups: chi2 and amplitudes = published to 4.4e-16; smallest p 0.51; largest |even amplitude| 1.1 errors (erroneous first implementation: C100 1.00, S7 0.62, S9L 0.13); S7 = all 1519830 and S9L = all 486344 fundamental discriminants of their ranges (own sieves)
+PASS explicit formula: C100 and S7: prime side = sum of its parts to 2e-15; zero side - prime side 2.2 / 1.6 errors on C100 and -2.0 / 0.1 on S7 (even / odd)
+12 of 12 checks passed

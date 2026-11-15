@@ -1,0 +1,26 @@
+pieces 0 1400 30 s
+pieces 200 1400 347 s
+pieces 400 1400 684 s
+pieces 600 1400 968 s
+pieces 800 1400 1283 s
+pieces 1000 1400 1450 s
+pieces 1200 1400 1603 s
+B10                even n   27351  |independent - published| <= 0.0000 errors   chi2 0.63 (published 0.63)
+B10                odd  n   27349  |independent - published| <= 0.0000 errors   chi2 1.16 (published 1.16)
+C100               even n  303978  |independent - published| <= 0.0000 errors   chi2 1.76 (published 1.76)
+C100               odd  n  303963  |independent - published| <= 0.0000 errors   chi2 0.52 (published 0.52)
+S7                 even n  759933  |independent - published| <= 0.0000 errors   chi2 0.21 (published 0.21)
+S7                 odd  n  759897  |independent - published| <= 0.0000 errors   chi2 0.64 (published 0.64)
+D100               even n   30410  |independent - published| <= 0.0000 errors   chi2 4.31 (published 4.31)
+D100               odd  n   30392  |independent - published| <= 0.0000 errors   chi2 0.66 (published 0.66)
+D100_D100b         even n  303987  |independent - published| <= 0.0000 errors   chi2 2.88 (published 2.88)
+D100_D100b         odd  n  303931  |independent - published| <= 0.0000 errors   chi2 1.35 (published 1.35)
+D100c              even n  303951  |independent - published| <= 0.0000 errors   chi2 0.81 (published 0.81)
+D100c              odd  n  303970  |independent - published| <= 0.0000 errors   chi2 0.34 (published 0.34)
+D100_D100b_D100c   even n  607938  |independent - published| <= 0.0000 errors   chi2 2.25 (published 2.25)
+D100_D100b_D100c   odd  n  607901  |independent - published| <= 0.0000 errors   chi2 0.72 (published 0.72)
+S9L                even n  243181  |independent - published| <= 0.0000 errors   chi2 1.75 (published 1.75)
+S9L                odd  n  243163  |independent - published| <= 0.0000 errors   chi2 1.31 (published 1.31)
+E                  even n   60772  |independent - published| <= 0.0000 errors   chi2 1.51 (published 1.51)
+E                  odd  n   60785  |independent - published| <= 0.0000 errors   chi2 0.88 (published 0.88)
+largest difference 0.0000 errors (PASS); 1936 s
