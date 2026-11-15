@@ -1,0 +1,137 @@
+{
+ "format": "numpy .npz with arrays D (int64, sorted by |D|) and L = L(1/2, chi_D) (float64)",
+ "files": [
+  {
+   "file": "V_part1_absD_0_2500000.npz",
+   "n": 1519834,
+   "absD_min": 3,
+   "absD_max": 2499999,
+   "even": 759907,
+   "odd": 759927,
+   "L_min": 6.0362687653687e-05,
+   "bytes": 14213255,
+   "sha256": "605ace68b8c759bc2b049cd768e20edb4efb3e7caa1d19c9dd7f3d0960e22a49",
+   "note": "every fundamental discriminant with 0 < |D| <= 2500000 (PARI lfun)"
+  },
+  {
+   "file": "V_part2_absD_2500000_5000000.npz",
+   "n": 1519790,
+   "absD_min": 2500001,
+   "absD_max": 4999999,
+   "even": 759915,
+   "odd": 759875,
+   "L_min": 0.000149374713547388,
+   "bytes": 14211896,
+   "sha256": "a465d8cacb09b195bba26bb3d561c5db4f0e1f102f41fcbc876ed9af71376264",
+   "note": "every fundamental discriminant with 2500000 < |D| <= 5000000 (PARI lfun)"
+  },
+  {
+   "file": "V_part3_absD_5000000_7500000.npz",
+   "n": 1519831,
+   "absD_min": 5000001,
+   "absD_max": 7499999,
+   "even": 759898,
+   "odd": 759933,
+   "L_min": 9.62629230695196e-05,
+   "bytes": 14212113,
+   "sha256": "a25f91672a345b9ebfe3abedd59ceb7d7fa9ac4271fe440e4232d56320b5cd62",
+   "note": "every fundamental discriminant with 5000000 < |D| <= 7500000 (PARI lfun)"
+  },
+  {
+   "file": "V_part4_absD_7500000_10000000.npz",
+   "n": 1519830,
+   "absD_min": 7500001,
+   "absD_max": 9999997,
+   "even": 759933,
+   "odd": 759897,
+   "L_min": 9.34973420126005e-05,
+   "bytes": 14212361,
+   "sha256": "d841cc9e4bde50ecb1896eddd5cc90ba408c755c88a379e56146fc399e3d7372",
+   "note": "every fundamental discriminant with 7500000 < |D| <= 10000000 (PARI lfun)"
+  },
+  {
+   "file": "D100.npz",
+   "n": 60802,
+   "absD_min": 100000001,
+   "absD_max": 100099999,
+   "even": 30410,
+   "odd": 30392,
+   "L_min": 0.00102354565968194,
+   "bytes": 568936,
+   "sha256": "8822779fd43a7e8eecc170ed9dbd3d26969e5b66a389cadf0f5b3be8b5932736",
+   "note": "10^8 < |D| <= 10^8 + 10^5 (PARI lfun)"
+  },
+  {
+   "file": "D100b.npz",
+   "n": 547116,
+   "absD_min": 100100001,
+   "absD_max": 100999999,
+   "even": 273577,
+   "odd": 273539,
+   "L_min": 0.000420759881955246,
+   "bytes": 5116170,
+   "sha256": "28d899c63fe50f22e310e6dac573592aa4c1eecd0a39a2dbcd5dcc17e68400e2",
+   "note": "10^8 + 10^5 < |D| <= 10^8 + 10^6 (PARI lfun)"
+  },
+  {
+   "file": "D100c.npz",
+   "n": 607921,
+   "absD_min": 101000001,
+   "absD_max": 101999999,
+   "even": 303951,
+   "odd": 303970,
+   "L_min": 0.000200314292034822,
+   "bytes": 5684915,
+   "sha256": "0d26191851fd0f6e3fe9e98cecec666a26abfce96fbbe54830ebeca3dc606714",
+   "note": "10^8 + 10^6 < |D| <= 10^8 + 2*10^6 (PARI lfun)"
+  },
+  {
+   "file": "S9L.npz",
+   "n": 486344,
+   "absD_min": 1000000001,
+   "absD_max": 1000799999,
+   "even": 243181,
+   "odd": 243163,
+   "L_min": 2.9634553464108482e-05,
+   "bytes": 4545651,
+   "sha256": "48b72df3900e78808339923410bae13df09dc09c068002f54eed51825111f4e2",
+   "note": "10^9 < |D| <= 10^9 + 8*10^5, every fundamental discriminant (own smoothed functional equation; checked against PARI on the 2,000 discriminants of S9K_pari.npz, largest relative difference 8.4e-13)"
+  },
+  {
+   "file": "S9K_pari.npz",
+   "n": 2000,
+   "absD_min": 1000001128,
+   "absD_max": 1000799949,
+   "even": 1007,
+   "odd": 993,
+   "L_min": 0.0131561659580414,
+   "bytes": 21293,
+   "sha256": "5ebd34eab520e2bf5b8e3a32221d6d45fb99853ee2a5746b9759e031d3ce7ae1",
+   "note": "2,000 random fundamental discriminants with 10^9 < |D| <= 10^9 + 8*10^5 (seed 34851), PARI lfun (computer 2) for the check of the own functional equation"
+  },
+  {
+   "file": "E10_E100.npz",
+   "n": 121557,
+   "absD_min": 10000000001,
+   "absD_max": 10000199999,
+   "even": 60772,
+   "odd": 60785,
+   "L_min": 0.00028204400362419335,
+   "bytes": 1139930,
+   "sha256": "b14e796fc2961fc385fe32c98c484f31f85f4f281d50d83e6547f8cbb87c2a09",
+   "note": "10^10 < |D| <= 10^10 + 2*10^5 (own smoothed functional equation; E10 also checked against PARI)"
+  },
+  {
+   "file": "E10_pari.npz",
+   "n": 12153,
+   "absD_min": 10000000001,
+   "absD_max": 10000019999,
+   "even": 6084,
+   "odd": 6069,
+   "L_min": 0.00181968577614087,
+   "bytes": 114129,
+   "sha256": "2e02f40f2b3dba5298798279486f096bdea2987eac203a39783831d9395dba12",
+   "note": "10^10 < |D| <= 10^10 + 2*10^4, PARI lfun (computer 2) for the check of the own functional equation"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+  "title": "Central values of quadratic Dirichlet L-functions for every fundamental discriminant up to 1e7 and at 1e8, 1e9 and 1e10: moments, consecutive families, the distribution of values, the first zero, and the weighted density of low zeros - a reproducible numerical study V",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Fifth study of the series (study I: doi:10.5281/zenodo.23815328; study II: doi:10.5281/zenodo.23928017; study III: doi:10.5281/zenodo.23991165; study IV: doi:10.5281/zenodo.24094318). It turns from the zeros of quadratic Dirichlet L-functions (study III) to their values at the central point. Data: L(1/2, chi_D) computed with PARI/GP 2.17.2 for every fundamental discriminant 3 <= |D| <= 1e7 (6,079,285 values), for all 1,215,839 discriminants with 1e8 < |D| <= 1e8 + 2e6 and, with our own smoothed functional equation, for all 486,344 discriminants with 1e9 < |D| <= 1e9 + 8e5 and all 121,557 discriminants with 1e10 < |D| <= 1e10 + 2e5; the values were checked against mpmath to 30 digits (4.8e-15), against an independent approximate functional equation and, at 1e10, against PARI for all 12,153 discriminants of the first band (4.3e-11) and, at 1e9, against PARI for 2,000 random discriminants (8.4e-13). For 4,042,611 of these discriminants the low-lying zeros are also known; the zeros of 3,161,211 L-functions were computed for this study. Most statements were tested against rules recorded before the computation. (i) The moments k = 1-5 of both signs agree with the full polynomials of Conrey, Farmer, Keating, Rubinstein and Snaith (CFKRS) in all 70 combinations of band, sign and k (largest deviation 0.65 standard errors; over all |D| <= 1e7 the relative differences are 6e-7 to 3e-4) and at 1e8 (0.57 errors; descriptively also at 1e9, 1.15 errors), while the leading term alone misses by 9 % (k = 1) to a factor 6e4 (k = 5); our polynomials agree with those of Alderson and Rubinstein to 7e-8. (ii) Sums over blocks of 20,000 consecutive |D| scatter three to nine times less than over random samples of the same size (k = 1-4), the more so the wider the block; the effect does not scale with w/sqrt|D| nor with ln w/ln sqrt|D| - it is the effect of consecutive families found for the zeros in study III, now in the values. (iii) The variance of ln L agrees with a hybrid of the arithmetic factor and USp(2N), with N fixed by the first moment, to 0.26 %; small values follow P(L < eps) ~ eps^(3/2) (exponent 1.518 +- 0.015), there are 11-17 % fewer of them than the hybrid predicts, and no value vanishes (smallest 6.04e-5 at D = -115,147). (iv) The central value and the first zero are coupled more strongly than in USp(2N) (correlation 0.83-0.89); an effective size N_eff from the ratios conjecture, without a free parameter, reproduces the mean first zero, but the shift of the first zero under weighting by L(1/2) stays 9-16 % above USp(2N_eff). (v) The weighted one-level density of Fazzari (ratios conjecture with weight L(1/2)) describes both signs at every conductor from 1e4 to 1e10 (chi2 0.2-4.3 for five bins with cautious errors, on 4.0 million L-functions, among them two families, 1.5 million at 1e7 and 0.49 million at 1e9, computed after the correction described below under rules recorded before their data), and on two families the explicit formula balances the zero side and a prime side computed from the measured central values to within 2.2 standard errors. A first implementation of this prediction contained an error in one Gamma factor that produced an apparent lower-order term for even characters falling like |D|^(-1/4); an independent implementation, recorded beforehand, found the error before publication, and with the correction the term disappears (Section 4.6). As a calibration of the method, the distribution of {alpha gamma_n} mod 1 on two million zeros of zeta agrees with the prediction of Ford and Zaharescu from Landau's formula (appendix). An independent recomputation that shares no code with the main scripts passes 12 of 12 checks. Agreement is numerical support for a conjecture, not a proof of it; nothing here bears on the generalised Riemann hypothesis. Article in English and Czech (PDF, DOCX, LaTeX, Markdown), figures, the central values of every discriminant (NumPy, 67 MB, SHA-256), the CFKRS polynomials, every number of the article in one JSON file, the rules recorded beforehand, manifests with the SHA-256 of every block of values and zeros, and the scripts as they were run. Text, figures and data CC BY 4.0, code MIT.",
+  "creators": [
+    {
+      "name": "Hess, David",
+      "affiliation": "MAYAN ALFA V1008 LAB v.34.85b"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "quadratic Dirichlet L-functions",
+    "central values",
+    "moments of L-functions",
+    "CFKRS",
+    "random matrix theory",
+    "USp",
+    "hybrid Euler-Hadamard product",
+    "small values",
+    "non-vanishing",
+    "low-lying zeros",
+    "ratios conjecture",
+    "weighted one-level density",
+    "consecutive families",
+    "lower-order terms",
+    "Ford-Zaharescu",
+    "PARI/GP"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23815328",
+      "relation": "continues",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23928017",
+      "relation": "continues",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23991165",
+      "relation": "continues",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.24094318",
+      "relation": "continues",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.24180562",
+      "relation": "references",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    }
+  ],
+  "version": "1.0",
+  "publication_date": "2026-11-15",
+  "language": "eng",
+  "notes": "Fifth study of the series; studies I-IV are doi:10.5281/zenodo.23815328, doi:10.5281/zenodo.23928017, doi:10.5281/zenodo.23991165 and doi:10.5281/zenodo.24094318. Code in code/ is released under the MIT licence; text, figures and data under CC BY 4.0. The record contains the article in English and in Czech (central_values_quadratic_cs.pdf, .docx).",
+  "references": [
+    "Hess, D. (2026). Berry saturation and the statistics of the Riemann zeros from t ~ 1e4 to 1e21: a reproducible numerical study. Zenodo. doi:10.5281/zenodo.23815328",
+    "Hess, D. (2026). Beyond the diagonal approximation: pair correlation, form factor and resonances of the Riemann zeros from t ~ 1e4 to 1e21 - a reproducible numerical study II. Zenodo. doi:10.5281/zenodo.23928017",
+    "Hess, D. (2026). Low-lying zeros of 795,381 quadratic Dirichlet L-functions up to conductor 1e10: the ratios conjecture, consecutive families and the first zero - a reproducible numerical study III. Zenodo. doi:10.5281/zenodo.23991165",
+    "Hess, D. (2026). Three-point correlation of the Riemann zeros at finite height: the ratios conjecture bin by bin on 147 million zeros up to t = 3e10, the amplitude of the deviation from GUE, and smaller sets further up - a reproducible numerical study IV. Zenodo. doi:10.5281/zenodo.24094318",
+    "Conrey, J. B., Farmer, D. W., Keating, J. P., Rubinstein, M. O. & Snaith, N. C. (2005). Integral moments of L-functions. Proc. London Math. Soc. 91, 33-104.",
+    "Keating, J. P. & Snaith, N. C. (2000). Random matrix theory and L-functions at s = 1/2. Commun. Math. Phys. 214, 91-110.",
+    "Jutila, M. (1981). On the mean value of L(1/2, chi) for real characters. Analysis 1, 149-161.",
+    "Soundararajan, K. (2000). Nonvanishing of quadratic Dirichlet L-functions at s = 1/2. Ann. of Math. 152, 447-488.",
+    "Diaconu, A., Goldfeld, D. & Hoffstein, J. (2003). Multiple Dirichlet series and moments of zeta and L-functions. Compositio Math. 139, 297-360.",
+    "Diaconu, A. & Whitehead, I. (2021). On the third moment of L(1/2, chi_d) II: the number field case. J. Eur. Math. Soc. 23, 2051-2070. doi:10.4171/JEMS/1049",
+    "Alderson, M. W. & Rubinstein, M. O. (2012). Conjectures and experiments concerning the moments of L(1/2, chi_d). Exp. Math. 21, 307-328.",
+    "Hough, B. (2015). The distribution of the logarithm in an orthogonal and a symplectic family of L-functions. Forum Math. doi:10.1515/forum-2011-0105",
+    "Gonek, S. M., Hughes, C. P. & Keating, J. P. (2007). A hybrid Euler-Hadamard product for the Riemann zeta function. Duke Math. J. 136, 507-549. doi:10.1215/S0012-7094-07-13634-2",
+    "Bui, H. M. & Keating, J. P. (2008). On the mean values of L-functions in orthogonal and symplectic families. Proc. London Math. Soc. 96, 335-366. doi:10.1112/plms/pdm046",
+    "Conrey, J. B., Farmer, D. W. & Zirnbauer, M. R. (2008). Autocorrelation of ratios of L-functions. Commun. Number Theory Phys. 2, 593-636.",
+    "Conrey, J. B. & Snaith, N. C. (2007). Applications of the L-functions ratios conjectures. Proc. London Math. Soc. 94, 594-646.",
+    "Fazzari, A. (2024). A weighted one-level density of families of L-functions. Algebra Number Theory 18, 87-132. doi:10.2140/ant.2024.18.87",
+    "Sugiyama, S. & Suriajaya, A. I. (2022). Weighted one-level density of low-lying zeros of Dirichlet L-functions. arXiv:2201.00326.",
+    "Lesesvre, D. & Suriajaya, A. I. (2026). A connection between low-lying zeros and central values of L-functions. arXiv:2605.12688.",
+    "The PARI Group (2025). PARI/GP version 2.17.2. https://pari.math.u-bordeaux.fr/",
+    "Stopple, J. (2009). The quadratic character experiment. Exp. Math. 18, 193-200.",
+    "Berry, M. V. (2001). Geometry of phase and polarization singularities illustrated by edge diffraction and the tides. Proc. SPIE 4403, 1-12. doi:10.1117/12.428252",
+    "Berry, M. V. & Dennis, M. R. (2001). Knotted and linked phase singularities in monochromatic waves. Proc. R. Soc. Lond. A 457, 2251-2263. doi:10.1098/rspa.2001.0826",
+    "Berry, M. V. & Dennis, M. R. (2004). Quantum cores of optical phase singularities. J. Opt. A: Pure Appl. Opt. 6, S178-S180. doi:10.1088/1464-4258/6/5/006",
+    "Berry, M. V. (2005). Phase vortex spirals. J. Phys. A: Math. Gen. 38, L745-L751. doi:10.1088/0305-4470/38/45/L01",
+    "Berry, M. V. & Goldberg, J. (1988). Renormalisation of curlicues. Nonlinearity 1, 1-26. doi:10.1088/0951-7715/1/1/001",
+    "Hess, D. (2026). Phase singularities of a windowed exponential sum over the Riemann zeros near the Landau-Gonek peak of p = 2: an exploratory note (v1.1). Zenodo. doi:10.5281/zenodo.24180562",
+    "Ford, K. & Zaharescu, A. (2005). On the distribution of imaginary parts of zeros of the Riemann zeta function. J. reine angew. Math. 579, 145-158.",
+    "Ford, K., Soundararajan, K. & Zaharescu, A. (2009). On the distribution of imaginary parts of zeros of the Riemann zeta function, II. Math. Ann. 343, 487-505. doi:10.1007/s00208-008-0280-x",
+    "Landau, E. (1911). Ueber die Nullstellen der Zetafunktion. Math. Ann. 71, 548-564."
+  ]
+}

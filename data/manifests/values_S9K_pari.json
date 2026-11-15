@@ -1,0 +1,317 @@
+{
+ "format": "MAYAN_V1008_KS_STRED_v1",
+ "prostredi": {
+  "python": "3.12.7",
+  "system": "Darwin",
+  "stroj": "arm64",
+  "pari": "(2, 17, 2)",
+  "cypari2": "?",
+  "skript_sha256": "1b53fe0e093e4c998e2eda9c63594e297ab08666da4cfec8644bc29497a103e8"
+ },
+ "xmax": 4.3,
+ "divz": 32,
+ "rodiny": {
+  "S9K": {
+   "spec": {
+    "typ": "nahodne",
+    "lo": 1000000001,
+    "hi": 1000800001,
+    "n": 2000,
+    "seed": 34851,
+    "blok": 50,
+    "popis": "2 000 náhodných D z S9L — jen --hodnota-stred: L(½) z PARI ke kontrole vlastní funkcionální rovnice v cloudu (asi 5 min)"
+   },
+   "bloky": {
+    "400": {
+     "soubor": "blok_000400.jsonl.gz",
+     "sha256": "d81690d72d10456fec50dc2e3ef14fd816598e21aa4cf5fad7c863fd783d4f0c",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 59.73
+    },
+    "300": {
+     "soubor": "blok_000300.jsonl.gz",
+     "sha256": "457a0477cf6ab9344dcbf852bd48f87b7b943ab7a3bb4fd2a248e67f35acf7f3",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 60.35
+    },
+    "0": {
+     "soubor": "blok_000000.jsonl.gz",
+     "sha256": "13503e4a5eeb60161e030fa48dd01f44d19730ed15f38d0d4eba55f55a48a4a8",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 60.8
+    },
+    "200": {
+     "soubor": "blok_000200.jsonl.gz",
+     "sha256": "3cb3cc2be27c3e127df4a23078d516251a6e82af619231a14b4f98db2f57cdd2",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 61.32
+    },
+    "150": {
+     "soubor": "blok_000150.jsonl.gz",
+     "sha256": "68921c305ff8df3914a9f4b78507c9e21c94dfab31e083e255e017033f179faf",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 62.94
+    },
+    "100": {
+     "soubor": "blok_000100.jsonl.gz",
+     "sha256": "878c96c40f26c6485a2e3095c93a062eccc471ac987389c670fd40b29bb72632",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 63.4
+    },
+    "50": {
+     "soubor": "blok_000050.jsonl.gz",
+     "sha256": "2d770021ba369f7af017080ecaa41e3f3eb2d23a36ef575f8b3df4cfd7cd52cb",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 63.84
+    },
+    "350": {
+     "soubor": "blok_000350.jsonl.gz",
+     "sha256": "b568c8f303131f66d5688d4d76ba2ca20392fd888a4056e8d525d9646c9f172f",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 64.98
+    },
+    "250": {
+     "soubor": "blok_000250.jsonl.gz",
+     "sha256": "8d7e4d19e8d85b17e749c5ca758545a8ee1275834ede416517d329e82022c973",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 65.12
+    },
+    "450": {
+     "soubor": "blok_000450.jsonl.gz",
+     "sha256": "6ea4764bdbf47b7d0171da3f52208173dbaab0cb30276c972189ee3a0bbf558e",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 64.48
+    },
+    "500": {
+     "soubor": "blok_000500.jsonl.gz",
+     "sha256": "91b49c2835623b38957a2255a27251c93a06129ea18ea323419d83a9075dc60c",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 64.5
+    },
+    "550": {
+     "soubor": "blok_000550.jsonl.gz",
+     "sha256": "ef5eff013c4c6d6917282e4625b61b9923c6017eb0c417d3b3a0393789689109",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 64.81
+    },
+    "750": {
+     "soubor": "blok_000750.jsonl.gz",
+     "sha256": "7d9d051778bb46f6d4f61d6ad66543133c23e75f9cf0724a2a7a9aa57cedb6c6",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 62.8
+    },
+    "650": {
+     "soubor": "blok_000650.jsonl.gz",
+     "sha256": "c78336bc2da56f42b67e17e763f4c3ff89070c5918b15458ccf573575360cd8e",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 63.78
+    },
+    "800": {
+     "soubor": "blok_000800.jsonl.gz",
+     "sha256": "d7af6105a888bd71938022f623ebe52825d2e375a60c50d2df6437d6966f2bf3",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 62.33
+    },
+    "700": {
+     "soubor": "blok_000700.jsonl.gz",
+     "sha256": "3a2701fb6d7dfe45127862ad9117edf245964f5ebbcc8526ad74c69f067172e1",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 65.95
+    },
+    "600": {
+     "soubor": "blok_000600.jsonl.gz",
+     "sha256": "24a393900d7c3499d18d091f6c8aa296a31d62c59ecc65903ef02b92aa04b902",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 68.21
+    },
+    "850": {
+     "soubor": "blok_000850.jsonl.gz",
+     "sha256": "7a0bdc91ae4cb3eec566331f50db0cafb3bc290a21a9071cbdcb0d34a8943f11",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 65.63
+    },
+    "900": {
+     "soubor": "blok_000900.jsonl.gz",
+     "sha256": "86a1ec9774888833ca8712694ce41a1dfd3f34bbb44a7593b7ec274eebe81940",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 64.79
+    },
+    "950": {
+     "soubor": "blok_000950.jsonl.gz",
+     "sha256": "52960afa2111ef4308c302bfe9674e06d3a79baa4984df668a5550a222fea3bb",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 64.88
+    },
+    "1000": {
+     "soubor": "blok_001000.jsonl.gz",
+     "sha256": "3b38346621f3a43974471be6e855e6d969adc3fc8ad9e871b789a1e9e4905d69",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 65.58
+    },
+    "1050": {
+     "soubor": "blok_001050.jsonl.gz",
+     "sha256": "6f785784ed8fc311f03644e54fcf8c83ec31c6e4ce8242d2980689eac65d6d61",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 64.56
+    },
+    "1150": {
+     "soubor": "blok_001150.jsonl.gz",
+     "sha256": "aaebd43c2528e3575879849ee544a9725f97064c9977c889f102e4ac9866741d",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 64.38
+    },
+    "1200": {
+     "soubor": "blok_001200.jsonl.gz",
+     "sha256": "3dfedbc839d6239c17861029d9f465a553b4512e701575977fc9fb5f2cb48a89",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 63.77
+    },
+    "1250": {
+     "soubor": "blok_001250.jsonl.gz",
+     "sha256": "3742c388d446bebda660845455844ece092b1662625a58e205682e7c6c17be28",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 63.84
+    },
+    "1100": {
+     "soubor": "blok_001100.jsonl.gz",
+     "sha256": "149d5e4e6ced9ff5cb82ebd81edc419b89b9cbbea60571fac60691ce57db36cd",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 68.18
+    },
+    "1300": {
+     "soubor": "blok_001300.jsonl.gz",
+     "sha256": "50159a90faf5b1df5b55ea9f57e1dc5a3764c42c3af0cb740390ac53ad8277ec",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 66.61
+    },
+    "1350": {
+     "soubor": "blok_001350.jsonl.gz",
+     "sha256": "053f173abf7406344e453ab51e4f6f807d8d3d22b4f10cd272f1bb3ce76f9d0b",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 62.85
+    },
+    "1450": {
+     "soubor": "blok_001450.jsonl.gz",
+     "sha256": "6d9aec751d7fef447cd98aa06f1ebbb4cef8ce3ab32db7ba5191d8067d8bda9e",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 61.39
+    },
+    "1400": {
+     "soubor": "blok_001400.jsonl.gz",
+     "sha256": "89669784c9b04da1a0510e097f7475a03a45936a3327590e911a0d323d151e2a",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 63.16
+    },
+    "1600": {
+     "soubor": "blok_001600.jsonl.gz",
+     "sha256": "b1e75dbd55515c1664756444d4c43fb5b2b85d27af6d6ededfe4790efe76ea32",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 62.52
+    },
+    "1550": {
+     "soubor": "blok_001550.jsonl.gz",
+     "sha256": "07d0f70dd47ac1da7a888ce29f0be54a3e81764e0022d4a22b50b3291f23db1d",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 64.19
+    },
+    "1700": {
+     "soubor": "blok_001700.jsonl.gz",
+     "sha256": "daa536c2afbdff87043c9a0808e8a0b655eb2de0aeb5024d14809c8f1dcdb039",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 61.18
+    },
+    "1650": {
+     "soubor": "blok_001650.jsonl.gz",
+     "sha256": "dfb34c9174635de7006f6992626e85b8d3bfa83deecadd469fbc40bafbfe916c",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 63.09
+    },
+    "1500": {
+     "soubor": "blok_001500.jsonl.gz",
+     "sha256": "9681a1f7ee9a732caed1b8ee457bfec89afd1ba4ba41dc4d4bd36d33f54541f1",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 65.28
+    },
+    "1750": {
+     "soubor": "blok_001750.jsonl.gz",
+     "sha256": "7b292c34a5447da29fc7f0d9061444ea9458c80613bc934d37deff3f2ff8f412",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 64.53
+    },
+    "1900": {
+     "soubor": "blok_001900.jsonl.gz",
+     "sha256": "b47c84ca9ab32c36cbc5e5620d556d987f6a6bb8e0bed406eb5edd3668dadcbc",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 56.13
+    },
+    "1850": {
+     "soubor": "blok_001850.jsonl.gz",
+     "sha256": "a93579f89ba55de7d0a7eab644a84841361b546f4547a88c517dd9dffd70bdc1",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 56.91
+    },
+    "1950": {
+     "soubor": "blok_001950.jsonl.gz",
+     "sha256": "c7e9fc420b490ee4d7778e541f98206c7d45ef49fcc915213f5b99a913a7db25",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 57.06
+    },
+    "1800": {
+     "soubor": "blok_001800.jsonl.gz",
+     "sha256": "afde0b27df1646361d3c998554a53bed1f543a59f40f8d3701be7cf923a9dae6",
+     "nL": 50,
+     "nnul": 0,
+     "sekund": 62.57
+    }
+   },
+   "bloku_celkem": 40
+  }
+ },
+ "prostredi_posledni": {
+  "python": "3.12.7",
+  "system": "Darwin",
+  "stroj": "arm64",
+  "pari": "(2, 17, 2)",
+  "cypari2": "?",
+  "skript_sha256": "1b53fe0e093e4c998e2eda9c63594e297ab08666da4cfec8644bc29497a103e8"
+ }
+}
